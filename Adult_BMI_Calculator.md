@@ -1,0 +1,47 @@
+Developing Data Products Course Project
+========================================================
+author: Willy Gayo
+date: October 12, 2020
+autosize: true
+
+About this Project
+========================================================
+
+- This project is a requirement for the Developing Data Products Course in Coursera
+- This project is made using RStudio shiny application
+- This project calculates Body Mass Index (BMI) for adults more than 20 years old
+
+
+Body Mass Index Calculator for Adult
+========================================================
+
+- This application calculates the BMI of an adult more than 20 years old based on the weight and height
+- The BMI classification is according to World Health Organization
+
+
+Sample BMI Calculation
+========================================================
+
+Let us calculate the BMI of a 21 years old patient whose height is 172 centimeters and weight is 67 kilograms.
+
+
+```r
+height <- 172
+weight <- 67
+BMI <- weight/((height/100)^2)
+BMI
+```
+
+```
+[1] 22.64738
+```
+
+Since the BMI is 22.64738, then the patient is normal weight.
+
+
+Links
+========================================================
+
+BMI Calculator for Adults Application: https://willygayo.shinyapps.io/Adult_BMI_Calculator/
+
+BMI Repository: https://github.com/willygayo/Developing-Data-Products-Course-Project
